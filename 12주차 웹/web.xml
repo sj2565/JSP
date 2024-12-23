@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<filter>
+		<filter-name>Filter01</filter-name>
+		<filter-class>filter.AuthenFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Filter01</filter-name>
+		<url-pattern>Ex1223.jsp</url-pattern>
+	</filter-mapping>
+</web-app>

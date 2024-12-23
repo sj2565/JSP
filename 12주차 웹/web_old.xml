@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<erro-page>
+		<error-code> 500 </error-code>
+		<location> Ex1212.jsp </location>
+	</erro-page>
+	
+	<error-page>
+		<exception-type> java.lang.ArithmeticException </exception-type>
+		<location> Ex1214.jsp </location>
+	</error-page>
+	
+	<error-page>
+		<exception-type> java.lang.NumberFormatException </exception-type>
+		<location> Ex1215.jsp </location>
+	</error-page>
+	
+</web-app>
